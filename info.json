@@ -1,11 +1,11 @@
 {
   "name": "i-speak-for-the-trees",
-  "version": "0.16.1",
+  "version": "0.17.0",
   "title": "I speak for the trees!",
   "author": "Sparr",
   "homepage": "http://github.com/sparr/factorio-mod-i-speak-for-the-trees",
   "contact": "sparr0@gmail.com",
   "description": "Spawns a biter when a tree is destroyed.",
-  "dependencies": ["base >= 0.16.0"],
-  "factorio_version": "0.16"
+  "dependencies": ["base >= 0.17.0"],
+  "factorio_version": "0.17"
 }
