@@ -11,6 +11,7 @@ local function spawnLorax(event)
   event.entity.surface.create_entity{position=event.entity.position,name="small-biter",force="enemy"}
 end
 
-script.on_event(defines.events.on_pre_player_mined_item, spawnLorax)
-script.on_event(defines.events.on_robot_pre_mined, spawnLorax)
-script.on_event(defines.events.on_entity_died, spawnLorax)
+local event_filters = {{filter="type",type="tree"}}
+script.on_event(defines.events.on_pre_player_mined_item, spawnLorax, event_filters)
+script.on_event(defines.events.on_robot_pre_mined, spawnLorax, event_filters)
+script.on_event(defines.events.on_entity_died, spawnLorax, event_filters)
