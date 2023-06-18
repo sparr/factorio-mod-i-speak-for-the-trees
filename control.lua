@@ -1,4 +1,5 @@
---TODO identify modded live/dead trees somehow
+---Potentially spawn a Lorax (small biter)
+---@param event EventData.on_entity_died | EventData.on_robot_pre_mined | EventData.on_pre_player_mined_item
 local function spawnLorax(event)
   if event.entity.type ~= "tree" or
      event.entity.prototype.mineable_properties.products == nil or
