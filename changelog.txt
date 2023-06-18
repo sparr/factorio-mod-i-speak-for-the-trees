@@ -2,6 +2,7 @@
 Version: 1.1.1
 Date: ????
   Changes:
+    - Refactoring and slight improvements
     - License copyright date bump
 ---------------------------------------------------------------------------------------------------
 Version: 1.1.0
