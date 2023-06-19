@@ -17,6 +17,7 @@ local function spawnLorax(event)
   if prototype.mineable_properties.products[index].amount ~= 4 then return end
   if math.random()*100 > settings.global['lorax-probability'].value then return end
   entity.surface.create_entity{position=entity.position,name="small-biter",force="enemy"}
+  entity.surface.create_entity{position=entity.position,name="flying-text",text="I speak for the trees!"}
 end
 
 ---@type EventFilter
